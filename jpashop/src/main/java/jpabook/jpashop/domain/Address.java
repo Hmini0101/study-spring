@@ -13,7 +13,7 @@ public class Address {
     private String street;
     private  String zipcode;
 
-    protected  Address(){
+    protected  Address(){ // embeddable 어노테이션 선언된곳의 기본생성자는 public 또는 protected 추천
 
     }
     public Address(String city, String street, String zipcode) {
