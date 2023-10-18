@@ -26,7 +26,7 @@ public class MemberServiceTest {
     EntityManager em;
 
     @Test(expected = IllegalArgumentException.class)
-    //@Rollback(value = false)
+//    @Rollback(value = false)
     public void 회원가입() throws Exception{
         //given
         Member member = new Member();
